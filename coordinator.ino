@@ -76,7 +76,8 @@ void loop() { // run over and over
 		Serial.println(xbee.getResponse().getErrorCode());
 	}
 
-	if (Serial.available()) {
-		mySerial.write(Serial.read());
-	}
+//	if (Serial.available()) {
+//		mySerial.write(Serial.read());
+//	}
+	delay(100);
 }
